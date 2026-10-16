@@ -42,6 +42,10 @@ Prerequisites: Install Node.js and npm.
    npm run preview
    ```
 
+## Deployed Application
+
+Live URL: https://task-traker-xi.vercel.app/
+
 ## Screenshots
 
 Screenshots are stored in the `screenshots/` folder:
