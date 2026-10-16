@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckSquare, Sparkles } from 'lucide-react';
+import { CheckSquare } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -10,12 +10,7 @@ export default function Header() {
             <CheckSquare className="logo-icon" size={24} />
           </div>
           <div>
-            <div className="title-row">
-              <h1 className="app-title">Task Tracker</h1>
-              <span className="brand-tag">
-                <Sparkles size={12} className="tag-icon" /> JTRONIX
-              </span>
-            </div>
+            <h1 className="app-title">Task Tracker</h1>
             <p className="app-subtitle">Organize your day, one task at a time.</p>
           </div>
         </div>
