@@ -5,7 +5,6 @@ import TaskForm from './components/TaskForm';
 import TaskFilters from './components/TaskFilters';
 import TaskList from './components/TaskList';
 import { loadTasksFromStorage, saveTasksToStorage, generateTaskId } from './utils/storage';
-import { HardDrive } from 'lucide-react';
 
 export default function App() {
   // Safe initial load from localStorage
@@ -105,11 +104,9 @@ export default function App() {
 
       <footer className="app-footer">
         <p className="footer-note">
-          <HardDrive size={14} className="footer-icon" />
-          <span>Your tasks are stored locally on this device.</span>
         </p>
-        <p className="footer-subnote">
-          JTRONIX Frontend Internship Assessment — Task Tracker Web App
+        <p className="footer-subnote" style={{color:"blue",fontWeight:'10'}}>
+         Task Tracker Web App
         </p>
       </footer>
     </div>
