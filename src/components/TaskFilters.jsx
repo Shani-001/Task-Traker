@@ -48,11 +48,6 @@ export default function TaskFilters({
             );
           })}
         </div>
-
-        <div className="autosave-indicator" title="Tasks persist automatically in your browser's localStorage">
-          <span className="autosave-dot" aria-hidden="true"></span>
-          <span>Auto-saving enabled</span>
-        </div>
       </div>
 
       {/* Current view banner matching PDF Page 4 mockup */}
